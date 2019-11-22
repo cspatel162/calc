@@ -1,0 +1,53 @@
+#container{
+  position: absolute;
+  width: 400px;
+  height: 500px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 0px auto;
+  padding: 0px;
+  background-color: #ddeef2;
+  transform: translateX(-50%) translateY(-50%);
+  top: 50%;
+  left: 50%;
+
+}
+h2{
+  text-align: center;
+  
+}
+input[type=text]{
+	padding: 5%;
+    width: 80%;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: right;
+
+}
+
+input[type=button]{
+    padding: 5%;
+    width: 20%;
+    margin: 0px auto;
+    border-radius: 10px;
+    margin-left: 13px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 20px;
+}
+
+
+#bck{
+	width: 50%;
+}
+
+#clr{
+	width: 40%;
+}
+
+input:hover{
+  border-color: blue;
+}
+
